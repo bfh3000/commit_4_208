@@ -14,7 +14,9 @@ public class lv1_CaesarCipher {
 		int N = n;
 
 		// 문자열을 테스트에 하나씩 담는다..
-		for (int i = 0; i < a.length(); i++) { test[i] = a.charAt(i); }
+		for (int i = 0; i < a.length(); i++) {
+			test[i] = a.charAt(i);
+		}
 
 		
 		//문자열 처리 시작.

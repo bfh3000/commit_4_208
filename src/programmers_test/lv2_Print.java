@@ -5,20 +5,70 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class lv2_Print {
-	// 1. 알파벳이 26개인 것을 이용.
-	// 2. 1번을 이용하여 '%' 나머지를 이용하여 처리함.
 	public static void main(String[] args) {
 		
 		//priorites : 현재 대기목록에 있는 문서의 중요도가 순서대로 담긴 배열.
 		//return : 내가 인쇄를 요청한 문서가 몇번째로 인쇄되는지의 값
 		//location : 위치 ( 0부터 시작 )
-		int[] avb00 = {1, 1, 9, 1, 1, 1}; 	// 5
-		int[] avb01 = {1, 1, 9, 1, 1}; 		// 4
-		int[] avb02 = {9, 1, 1, 3, 2}; 		// 5
 		
-		System.out.println(solution(avb02, 2));
+		//               여↓기
+		int[] avb00 = {1, 1, 9, 1, 1, 1}; 	// 6
+		int[] avb01 = {1, 1, 9, 1, 1}; 		// 5
+		int[] avb02 = {9, 1, 1, 3, 2}; 		// 4
+		int[] avb03 = {1, 5, 3, 4}; 		// 1
+		int[] avb04 = {5, 5, 4, 9}; 		// 3
+		
+		System.out.println(solution2(avb04, 1));
 
+		// 1)  {5, 5, 4, 9}
+		// 2)  {5, 5, 4, 0}   count ++
+		// 3)  {5, 5, 4, 9}     result = count + location    
 	}
+	
+	public static int solution2(int[] priorities, int location) {
+		int defalt[] = new int[priorities.length];
+		defalt = priorities;
+		int test[] = new int[priorities.length];
+		test = defalt;
+		int count = 0;
+		int result = 0;
+		
+		//for (int i = 0; i < priorities.length; i++) {
+			//test[i] = priorities[i];
+			
+			Arrays.sort(priorities); //우선순위를 비교하기 위해 오름 차순 정렬
+			int max = priorities[priorities.length-1]; //오름차순 한 마지막 요소가 가장 큰 수
+			
+			if(defalt[location] < max){
+				for (int j = 0; j < priorities.length; j++) {
+					if(test[j] == max){
+						test[j] = 0;
+						count++;
+					}
+				}
+			}else if(defalt[location] >= max){
+				result = location + count;
+			}else{
+				
+		}
+		return result;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	public static int solution(int[] priorities, int location) {
 	
         int answer = 0;
