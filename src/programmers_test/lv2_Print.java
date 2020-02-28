@@ -126,7 +126,7 @@ public class lv2_Print {
 				answer++;
 				location--;
 				if (location < 0) {
-					break;
+					break ;
 				}
 			} else {
 				// 처음에 que.poll을 했던 수를 add 함으로써 맨 뒤로 밀림
