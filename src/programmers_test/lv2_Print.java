@@ -19,7 +19,7 @@ public class lv2_Print {
 		int[] avb03 = { 1, 5, 3, 4 }; // 1
 		int[] avb04 = { 5, 5, 4, 9 }; // 3
 
-		System.out.println(solution3(avb04, 1));
+		System.out.println(solution2(avb04, 1));
 
 		// 1-1) {5, 5, 4, 9}
 		// 1-2) {4, 5, 5, 9} // 오름 차순 정렬
@@ -40,16 +40,17 @@ public class lv2_Print {
 
 	public static int solution2(int[] priorities, int location) {
 		int defalt[] = new int[priorities.length];
-		defalt = priorities;
 		int test[] = new int[priorities.length];
-		test = defalt;
+		//test = priorities;
+		defalt = priorities;
 		int count = 0;
 		int result = 0;
 
-		// for (int i = 0; i < priorities.length; i++) {
-		// test[i] = priorities[i];
+		 for (int i = 0; i < priorities.length; i++) {
+			 test[i] = priorities[i];
+		 }
 
-		Arrays.sort(priorities); // 우선순위를 비교하기 위해 오름 차순 정렬
+		Arrays.sort(defalt); // 우선순위를 비교하기 위해 오름 차순 정렬
 		int max = priorities[priorities.length - 1]; // 오름차순 한 마지막 요소가 가장 큰 수
 
 		if (defalt[location] < max) {
@@ -59,14 +60,14 @@ public class lv2_Print {
 					count++;
 				}
 			}
-		} else if (defalt[location] >= max) {
+		} else if (defalt[location] == max) {
 			result = location + count;
 		} else {
 
 		}
 		return result;
 	}
-
+	// 1-1) {5, 5, 4, 9}
 		public static int solution3(int[] priorities, int location) {
 			int answer = 0;
 			LinkedList<Integer> q = new LinkedList<Integer>();
