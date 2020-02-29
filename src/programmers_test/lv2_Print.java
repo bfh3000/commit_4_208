@@ -7,37 +7,19 @@ import java.util.Queue;
 public class lv2_Print {
 
 	public static void main(String[] args) {
-
 		// priorites : 현재 대기목록에 있는 문서의 중요도가 순서대로 담긴 배열.
 		// return : 내가 인쇄를 요청한 문서가 몇번째로 인쇄되는지의 값
 		// location : 위치 ( 0부터 시작 )
-
 		// 여↓기
 		int[] avb00 = { 1, 1, 9, 1, 1, 1 }; // 6
 		int[] avb01 = { 1, 1, 9, 1, 1 }; // 5
 		int[] avb02 = { 9, 1, 1, 3, 2 }; // 4
 		int[] avb03 = { 1, 5, 3, 4 }; // 1
 		int[] avb04 = { 5, 5, 4, 9 }; // 3
-
-		System.out.println(solution2(avb04, 1));
-
-		// 1-1) {5, 5, 4, 9}
-		// 1-2) {4, 5, 5, 9} // 오름 차순 정렬
-		// 2) {5, 5, 4, 0} count ++
-		// 3) {5, 5, 4, 9} result = count + (location+1)
-
-		// 1-1) {9, 1, 1, 3, 2}
-		// 1-2) {1, 1, 2, 3, 9} 오름 차순 정렬
-		// 1-3) {1, 1, 2, 3, 0} 맥스값 0으로 하고난 뒤 count ++
-		// 2-1) {0, 1, 1, 2, 3} 오름 차순 정렬
-		// 2-2) {0, 1, 1, 2, 0} 맥스값 0으로 하고난 뒤 count ++
-		// 3-1) {0, 0, 1, 1, 2} 오름 차순 정렬
-		// 3-2) {0, 0, 1, 1, 0} 맥스값 0으로 하고난 뒤 count ++
-		// 4-1) {0, 0, 0, 1, 1} 오름 차순 정렬
-		// 3) {1, 1, 2, 3, 9} max값과 location의 값이 같으므로 result = count +
-		// (location+1) 답 : 4
+		System.out.println(solution(avb04, 1));
 	}
 
+	//나의 실패한 코드
 	public static int solution2(int[] priorities, int location) {
 		int defalt[] = new int[priorities.length];
 		int test[] = new int[priorities.length];
@@ -67,6 +49,7 @@ public class lv2_Print {
 		}
 		return result;
 	}
+	//큐는 이해가 안가.. .
 	// 1-1) {5, 5, 4, 9}
 		public static int solution3(int[] priorities, int location) {
 			int answer = 0;
@@ -104,7 +87,7 @@ public class lv2_Print {
 			return answer;
 		}
 
-		
+		// 커뮤니티 제출한 코드
 	public static int solution(int[] priorities, int location) {
 
 		int answer = 0;
