@@ -39,7 +39,7 @@ public class lv2_Print {
  
 			if (current == priorities[length - answer]) {
 				answer++;
-				location--;
+ 				location--;
 				if (location < 0) {
 					break ;
 				}
