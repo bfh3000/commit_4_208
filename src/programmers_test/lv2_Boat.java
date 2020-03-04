@@ -1,13 +1,26 @@
 package programmers_test;
 
+import java.util.Arrays;
+
 public class lv2_Boat {
 
 	public static void main(String[] args) {
-
+		
 	}
 
-	public static int solution(int[] priorities, int location) {
-		int answer = 0;
-		return answer;
+	public int solution(int[] people, int limit) {
+		 Arrays.sort(people);
+	        int ship = 0; 
+	        int first = 0;
+	        int last = people.length-1;
+	        
+	        while(first<=last) {
+	            if(people[first] + people[last] <= limit) {
+	                first++;
+	            }
+	            last--;
+	            ship++;
+	        }
+	        return ship;
 	}
 }
