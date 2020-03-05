@@ -23,9 +23,7 @@ public class lv2_Print {
 	public static int solution(int[] priorities, int location) {
 
 		int answer = 0;
-
 		Queue<Integer> que = new LinkedList<>();
-		
 		
 		for (int i = 0; i < priorities.length; i++) {
 			que.add(priorities[i]); 
