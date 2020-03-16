@@ -5,11 +5,13 @@ import java.util.Queue;
 
 public class lv0_2020Kakao_1 {
 	public static void main(String[] args) {
+		//값 대입 후 테스트.
 		System.out.println(solution("())("));
 	}
 	
     public static String solution(String p) {
-        String answer = "";
+        // 문제 조건 1. 입력이 빈 문자열인 경우, 빈 문자열을 반환합니다. 
+    	String answer = "";
         if(p.equals("") || p==null) return "";
         answer = func(p);
         return answer;
@@ -29,13 +31,13 @@ public class lv0_2020Kakao_1 {
                 break;              
             }
         }
-//		for문을 나오면 open과 close가 같게되면 
-//				u는 "균형잡힌 괄호 문자열"로 더 이상 분리할 수 없어야 하는 조건이고, 
-//				v는 빈 문자열이 ""(빈)값도 될 수 있는 조건으로 나눠준다.
+//		문제 조건 2. 	for문을 나오면 open과 close가 같게되면 
+//					u는 "균형잡힌 괄호 문자열"로 더 이상 분리할 수 없어야 하는 조건이고, 
+//					v는 빈 문자열이 ""(빈)값도 될 수 있는 조건으로 나눠준다.
         String u = p.substring(0,i+1);
         String v = p.substring(i+1, p.length());
         
-        //3. 문자열 u가 "올바른 괄호 문자열" 이라면 문자열 v에 대해 1단계부터 다시 수행. 
+        //문제 조건 3. 문자열 u가 "올바른 괄호 문자열" 이라면 문자열 v에 대해 1단계부터 다시 수행. 
         if(collect(u)) {
             ret = u + func(v);
         }
