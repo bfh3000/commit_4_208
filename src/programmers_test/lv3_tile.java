@@ -10,6 +10,17 @@ public class lv3_tile {
 		//4이면 (5+5+3+3) 	= 10 + 6 = 16
 		//5이면 (8+8+5+5) 	= 16 + 10 = 26
 		//6이면 (13+13+8+8) 	= 26 + 16 = 42
+		int a = 1;
+		solution(a);
+	}
+
+	private static void solution(int a) {
+		// TODO Auto-generated method stub
+		for(int i=1; i<=a; i++){
+			for(int j=1; j<=a; j++){
+				
+			}
+		}
 		
 	}
 
