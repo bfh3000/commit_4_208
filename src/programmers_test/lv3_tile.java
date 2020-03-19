@@ -9,7 +9,7 @@ public class lv3_tile {
 		//4이면 (5+5+3+3) 	= 10 + 6 = 16
 		//5이면 (8+8+5+5) 	= 16 + 10 = 26
 		//6이면 (13+13+8+8) 	= 26 + 16 = 42
-		int test = 4;
+		int test = 6;
 		int solution = solution(test);
 		System.out.println(solution);
 	}
@@ -18,21 +18,22 @@ public class lv3_tile {
 		int pre_sum1 = 0;
 		int pre_sum2 = 0;
 		int i = 1;
-			while(i <= a) {
+			while(i <= a) { 
 				if(i==1) {
 					pre_sum1 = 2;
 					pre_sum2 = 2;
 					sum = pre_sum1 + pre_sum2;
-					pre_sum1 = sum;
 					pre_sum2 = pre_sum1;
+					pre_sum1 = sum;
 				}else if(i==2){
+					pre_sum2 = 2;
 					sum = pre_sum1 + pre_sum2;
-					pre_sum1 = sum;
 					pre_sum2 = pre_sum1;
+					pre_sum1 = sum;
 				}else {
 					sum = pre_sum1 + pre_sum2;
-					pre_sum1 = sum;
 					pre_sum2 = pre_sum1;
+					pre_sum1 = sum;
 					
 				}
 				i++;
