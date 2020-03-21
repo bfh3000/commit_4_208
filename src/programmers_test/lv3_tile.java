@@ -21,7 +21,8 @@ public class lv3_tile {
 			while(i <= a) {
 				if(i==1) {
 					pre_sum1 = 2;
-					pre_sum2 = 2;
+					pre_sum2
+					= 2;
 					sum = pre_sum1 + pre_sum2;
 					pre_sum1 = sum;
 					pre_sum2 = pre_sum1;
@@ -42,3 +43,4 @@ public class lv3_tile {
 	}
 
 }
+
