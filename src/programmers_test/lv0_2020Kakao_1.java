@@ -10,7 +10,7 @@ public class lv0_2020Kakao_1 {
 	}
 	
     public static String solution(String p) {
-        // 문제 조건 1. 입력이 빈 문자열인 경우, 빈 문자열을 반환합니다. 
+        // 문제 조건 1. 입력이 빈 문자열인 경우, 빈 문자열을 반환합니다. 2
     	String answer = "";
         if(p.equals("") || p==null) {
         	return "";
@@ -38,7 +38,7 @@ public class lv0_2020Kakao_1 {
         }
 //		문제 조건 2. 	for문을 나오면 open과 close가 같게되면 
 //					u는 "균형잡힌 괄호 문자열"로 더 이상 분리할 수 없어야 하는 조건이고, 
-//					v는 빈 문자열이 ""(빈)값도 될 수 있는 조건으로 나눠준다.
+//					v는 빈 문자열이 ""(빈)값도 될 수 있는 조건으로 나눠준다.2
         String u = p.substring(0,i+1);
         String v = p.substring(i+1, p.length());
         
