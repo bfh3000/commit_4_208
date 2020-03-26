@@ -7,7 +7,7 @@ import java.util.Queue;
 public class lv2_2018Kakao_2 {
 
 	public static void main(String[] args) {
-
+			//카카오 4블럭
 	}
 
 	public static void solution(int[] priorities, int location) {
