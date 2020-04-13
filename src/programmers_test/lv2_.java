@@ -7,7 +7,6 @@ public class lv2_ {
 	}
 	private static int solution(int a) {
 		return 0;
-		
 	}
 
 }
