@@ -5,7 +5,6 @@ import java.util.ArrayList;
 public class lv2_2018Kakao_2 {
 
 	public static void main(String[] args) {
-			//카카오 4블럭
 		int a = 4;
 		int b = 5;
 		String[] aa = new String[]{"CCBDE", "AAADE", "AAABF", "CCBBF"};  // 14  나와야 함. a, b 4 5
