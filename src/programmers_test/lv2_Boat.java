@@ -8,7 +8,6 @@ public class lv2_Boat {
 		int[] people = {30, 40, 60, 30, 100};
 		System.out.println(solution(people, 100));
 	}
-
 	public static int solution(int[] people, int limit) {
 		 Arrays.sort(people);
 	        int ship = 0; 
