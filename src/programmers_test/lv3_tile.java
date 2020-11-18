@@ -13,6 +13,9 @@ public class lv3_tile {
 		int solution = solution(test);
 		System.out.println(solution);
 	}
+
+
+//test
 	private static int solution(int a) {
 		int sum = 0;
 		int pre_sum1 = 0;
