@@ -13,8 +13,7 @@ public class lv2_Boat {
 	        int ship = 0; 
 	        int first = 0; // 첫번
 	        int last = people.length-1;
-
-	        
+////////	        
 	        while(first<=last) {
 	            //제한을 초과하지 않는다면, 충족하기 때문에 두 사람을 뺀다. 첫번째빼는 조건으로 first++을 넣는다.  
 	        	if(people[first] + people[last] <= limit) {
