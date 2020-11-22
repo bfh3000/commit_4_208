@@ -10,8 +10,6 @@ public class lv2_Boat {
 	}
 	public static int solution(int[] people, int limit) {
 		 Arrays.sort(people);
-	        int ship = 0; 
-	        int first = 0; // Ã¹¹ø
 	        int last = people.length-1;
 ////////	        
 	        while(first<=last) {
