@@ -7,9 +7,6 @@ public class lv3_tile {
 		//2이면 (2+2+1+1) 	= 4  + 2 = 6
 		//3이면 (3+3+2+2) 	= 6  + 4 = 10
 		//4이면 (5+5+3+3) 	= 10 + 6 = 16
-		//5이면 (8+8+5+5) 	= 16 + 10 = 26
-		//6이면 (13+13+8+8) 	= 26 + 16 = 42
-		int test = 6;
 		int solution = solution(test);
 		System.out.println(solution);
 	}
