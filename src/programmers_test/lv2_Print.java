@@ -9,8 +9,6 @@ public class lv2_Print {
 	public static void main(String[] args) {
 		// priorites : 현재 대기목록에 있는 문서의 중요도가 순서대로 담긴 배열.
 		// return : 내가 인쇄를 요청한 문서가 몇번째로 인쇄되는지의 값
-		// location : 위치 ( 0부터 시작 )
-		// 여↓기
 		int[] avb00 = { 1, 1, 9, 1, 1, 1 }; // 6
 		int[] avb01 = { 1, 1, 9, 1, 1 }; // 5
 		int[] avb02 = { 9, 1, 1, 3, 2 }; // 42
