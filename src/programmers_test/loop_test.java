@@ -13,7 +13,6 @@ public class loop_test {
 		
 		List<String> same_list_value = new ArrayList<String>();
 				
-		loop:
 			
 			for(int j=0; j<test_list.length; j++){
 				System.out.println(test_list[i]);
