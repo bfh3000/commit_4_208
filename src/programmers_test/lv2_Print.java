@@ -17,7 +17,6 @@ public class lv2_Print {
 		System.out.println(solution(avb03, 1));
 	}
 
-	//[1, 5, 3, 4]
 	public static int solution(int[] priorities, int location) {
 
 		int answer = 0;
