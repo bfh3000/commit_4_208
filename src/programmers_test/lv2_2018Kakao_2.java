@@ -11,6 +11,7 @@ public class lv2_2018Kakao_2 {
 		//String[] aa = new String[]{"TTTANT", "RRFACC", "RRRFCC", "TRRRAA", "TTMMMF", "TMMTTJ"}; // 15 나와야 함. a b 6 6
 		System.out.println(solution(a, b, aa));
 		System.out.println(solution(a, b, aa));
+		System.out.println(solution(a, b, aa));
 	}
 
 	  static char[][] map;
