@@ -10,6 +10,7 @@ public class lv2_2018Kakao_2 {
 		String[] aa = new String[]{"CCBDE", "AAADE", "AAABF", "CCBBF"};  // 14  唱客具 窃. a, b 4 5
 		//String[] aa = new String[]{"TTTANT", "RRFACC", "RRRFCC", "TRRRAA", "TTMMMF", "TMMTTJ"}; // 15 唱客具 窃. a b 6 6
 		System.out.println(solution(a, b, aa));
+		System.out.println(solution(a, b, aa));
 	}
 
 	  static char[][] map;
