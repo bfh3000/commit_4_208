@@ -6,7 +6,6 @@ public class lv2_ {
 		System.out.println();
 	}
 	private static int solution(int a) {
-		return 0;
 	}
 
 }
