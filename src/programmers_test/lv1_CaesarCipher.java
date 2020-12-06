@@ -17,8 +17,6 @@ public class lv1_CaesarCipher {
 		for (int i = 0; i < a.length(); i++) {
 			test[i] = a.charAt(i);
 		}
-		
-		//문자열 처리 시작.
 		for (int i = 0; i < a.length(); i++) {
 
 			// 공백은 그대로 공백처리.
