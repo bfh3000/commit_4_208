@@ -55,9 +55,6 @@ public class lv1_CaesarCipher {
 					test[i] = (char) (test[i] + n);
 				}
 
-				
-				
-			// 소문자, 대문자, 공백 이외의 값은 메시지를 띄우기로 함.
 			} else {
 				return "영어 소문자, 대문자 그리고 공백만 입력이 가능합니다.";
 			}
