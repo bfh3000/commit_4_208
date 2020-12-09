@@ -58,7 +58,6 @@ public class lv1_CaesarCipher {
 			} else {
 				return "영어 소문자, 대문자 그리고 공백만 입력이 가능합니다.";
 			}
-
 			answer += test[i];
 		}
 		return answer;
