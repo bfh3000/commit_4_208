@@ -13,7 +13,7 @@ public class lv1_CaesarCipher {
 		char[] test = new char[a.length()];
 		int N = n;
 
-		// 문자열을 테스트에 하나씩 담는다..
+		// 문자열을 테스트에 하나씩 담는다.
 		for (int i = 0; i < a.length(); i++) {
 			test[i] = a.charAt(i);
 		}
@@ -23,8 +23,6 @@ public class lv1_CaesarCipher {
 			if (test[i] == ' ') {
 				test[i] = test[i];
 
-				
-				
 			// 영어 소문자 처리하는 부분
 			} else if (test[i] <= 'z' && test[i] >= 'a') {
 				n = n % 26;
@@ -38,8 +36,6 @@ public class lv1_CaesarCipher {
 					n = N % 26;
 					test[i] = (char) (test[i] + n);
 				}
-
-				
 				
 			// 영어 대문자 처리하는 부분
 			} else if (test[i] <= 'Z' && test[i] >= 'A') {
