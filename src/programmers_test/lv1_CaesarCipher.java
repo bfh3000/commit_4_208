@@ -12,8 +12,6 @@ public class lv1_CaesarCipher {
 		String answer = "";
 		char[] test = new char[a.length()];
 		int N = n;
-
-		// 문자열을 테스트에 하나씩 담는다.
 		for (int i = 0; i < a.length(); i++) {
 			test[i] = a.charAt(i);
 		}
