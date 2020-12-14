@@ -8,7 +8,7 @@ public class loop_test2 {
 	public static void main(String[] args) {
 		String[] test_list = new String[]{"1", "2", "3"};
 		String[] test_list2 = new String[]{"1", "2", "5"};
-		
+		//test
 		List<String> same_list_value = new ArrayList<String>();
 				//¿©±âddd
 		for(int i=0; i<test_list.length; i++){
