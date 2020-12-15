@@ -22,6 +22,6 @@ public class lv2_Boat {
 	            
 	            //ship++;
 	        //}
-	        return null;
+	        return 3;
 	}
 }
