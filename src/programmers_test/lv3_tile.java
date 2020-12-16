@@ -3,7 +3,7 @@ package programmers_test;
 public class lv3_tile {
 
 	public static void main(String[] args) {
-		int test;
+		int test = 0;
 		//1이면 (1+1+1+1) 	= 2  + 2 = 4
 		//2이면 (2+2+1+1) 	= 4  + 2 = 6
 		//3이면 (3+3+2+2) 	= 6  + 4 = 10
