@@ -12,6 +12,7 @@ public class lv2_2018Kakao_2 {
 		System.out.println(solution(a, b, aa));
 		System.out.println(solution(a, b, aa));
 	}
+	//µÎ¹øÂ°
 	  static char[][] map;
 		static boolean[][] visited;
 		static int a, b;
