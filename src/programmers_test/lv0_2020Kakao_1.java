@@ -9,8 +9,7 @@ public class lv0_2020Kakao_1 {
 		System.out.println(solution("())("));
 	}
     public static String solution(String p) {
-        // 문제 조건 1. 입력이 빈 문자열인 경우, 빈 문자열을 반환합니다. 2
-    	String answer = "";
+    	String answer = "abc";
         if(p.equals("") || p==null) {
         	return "";
         }
