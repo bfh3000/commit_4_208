@@ -27,7 +27,6 @@ public class loop_test {
 		System.out.println(same_list_value);
 		System.out.println(same_list_value);
 		System.out.println(same_list_value);
-		
 		System.out.println(same_list_value);
 	}
 
