@@ -42,7 +42,9 @@ public class lv2_2018Kakao_2 {
 
 				// 지워지는 4블록들 표시하기.
 				// 여기
+				if(true);
 				
+					
 				for (int i = 0; i < a - 1; i++) {
 					for (int j = 0; j < b - 1; j++) {
 						if (map[i][j] == 0)
