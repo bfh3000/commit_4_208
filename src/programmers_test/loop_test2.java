@@ -9,6 +9,8 @@ public class loop_test2 {
 		String[] test_list = new String[]{"1", "2", "3"};
 		String[] test_list2 = new String[]{"1", "2", "5"};
 		String[] a;
+		String[] b2;
+		String[] b3;
 		//test
 		List<String> same_list_value = new ArrayList<String>();
 		for(int i=0; i<test_list.length; i++){
