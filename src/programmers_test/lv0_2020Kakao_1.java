@@ -14,7 +14,12 @@ public class lv0_2020Kakao_1 {
         	return "";
         }
         answer = func(p);
+        
+        String a ="";
         return answer;
+        
+        
+        
     }
     public static String func(String p) {
         String ret = "";
