@@ -11,7 +11,6 @@ public class loop_test2 {
 		String[] a;
 		String[] b2;
 		String[] b3;
-		//test
 		List<String> same_list_value = new ArrayList<String>();
 		for(int i=0; i<test_list.length; i++){
 			for(int j=0; j<test_list.length; j++){
