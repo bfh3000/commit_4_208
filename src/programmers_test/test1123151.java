@@ -9,7 +9,7 @@ public class test1123151 {
 		
 		System.out.println(gender);
 		System.out.println(phone);
-		
+		System.out.println("String : ");
 	}
 
 }
