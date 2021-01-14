@@ -14,7 +14,6 @@ public class lv0_2020Kakao_1 {
         	return "";
         }
         answer = func(p);
-        
         String a ="";
         return answer;
         
@@ -78,6 +77,7 @@ public class lv0_2020Kakao_1 {
                 q.poll();
             }
         }
+        String a2 ="";
         return true;
     }
 }
