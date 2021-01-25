@@ -27,6 +27,7 @@ public class lv1_CaesarCipher {
 				test[i] = (char) (test[i] + n);
 
 				// 영어 소문자 처리하고 소문자 범위를 벗어나면 '%'나머지 연산자를 이용하여 처리.
+				// 영어 소문자 처리하고 소문자 범위를 벗어나면 '%'나머지 연산자를 이용하여 처리.
 				if (test[i] > 'z' || test[i] < 'a') {
 					n = n % 26;
 					n = -(n + 26);
