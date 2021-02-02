@@ -15,7 +15,6 @@ public class loop_test {
 		List<String> same_list_value = new ArrayList<String>();
 		loop:
 		for(int i=0; i<test_list.length; i++){
-			
 			for(int j=0; j<test_list.length; j++){
 				System.out.println(test_list[i]);
 				System.out.println(test_list2[j]);
