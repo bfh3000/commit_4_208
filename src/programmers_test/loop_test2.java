@@ -24,7 +24,6 @@ public class loop_test2 {
 			}
 		}
 		System.out.println(same_list_value);
-		System.out.println(same_list_value);
 	}
 
 }
