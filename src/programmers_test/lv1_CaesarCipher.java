@@ -1,7 +1,7 @@
 package programmers_test;
 
 public class lv1_CaesarCipher {
-	// 1. 알파벳이 26개인 것을 이용.
+	// 1. 알파벳이 26개인 것을 이용. 1. 알파벳이 26개인 것을 이용.
 	// 2. 1번을 이용하여 '%' 나머지를 이용하여 처리함
 	public static void main(String[] args) {
 		System.out.println(solution2("A a z Z b B ", 1));
