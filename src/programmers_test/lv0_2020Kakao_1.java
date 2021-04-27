@@ -6,7 +6,6 @@ import java.util.Queue;
 public class lv0_2020Kakao_1 {
 	public static void main(String[] args) {
 		//값 대입 후 테스트.
-		//값 대입 후 테스트.2
 		//값 대입 후 테스트.3
 		System.out.println(solution("())("));
 	}
