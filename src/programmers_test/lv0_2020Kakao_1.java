@@ -11,6 +11,7 @@ public class lv0_2020Kakao_1 {
 	}
     public static String solution(String p) {
     	String answer = "abc";
+    	String answer_re = "abc";
         if(p.equals("") || p==null) {
         	return "";
         }
