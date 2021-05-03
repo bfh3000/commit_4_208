@@ -8,6 +8,9 @@ public class lv0_2020Kakao_1 {
 		//값 대입 후 테스트.
 		//값 대입 후 테스트.3
 		System.out.println(solution("())("));
+		
+		System.out.println(solution("())("));
+		System.out.println(solution("())("));
 	}
     public static String solution(String p) {
     	String answer = "abc";
