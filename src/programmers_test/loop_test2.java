@@ -14,7 +14,6 @@ public class loop_test2 {
 		for(int i=0; i<test_list.length; i++){
 			for(int j=0; j<test_list.length; j++){
 				System.out.println(test_list[i]);
-				System.out.println(test_list2[j]);
 				if(test_list2[j] == test_list[i]) {
 					same_list_value.add(test_list[i]);
 					break;
