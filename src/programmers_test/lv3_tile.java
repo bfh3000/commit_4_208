@@ -14,6 +14,7 @@ public class lv3_tile {
 	private static int solution(int a) {
 		int sum = 0;
 		int pre_sum1 = 0;
+		int pre_sum12 = 0;
 		int pre_sum2 = 0;
 		int i = 1;
 			while(i <= a) { 
