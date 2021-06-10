@@ -11,6 +11,8 @@ public class java {
 
 		Map.put( 22, "uuuuuuu");
         Map.put( 15, "aaaaaaa");
+        Map.put( 15, "aaaaaaa");
+        Map.put( 15, "aaaaaaa");
         Map.put( 44, "ddddddd");
         Map.put( 11, "ccccccc");
         Map.put( 16, "iiiiiii");
